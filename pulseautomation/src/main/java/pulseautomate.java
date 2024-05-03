@@ -14,9 +14,9 @@ public class pulseautomate {
         String parenthandle = driver.getWindowHandle();
         System.out.println("the parent window handle is"+parenthandle);
         //Enter login id
-        driver.findElement(By.xpath("//input[@name='emp_code']")).sendKeys("170171");
+        driver.findElement(By.xpath("//input[@name='emp_code']")).sendKeys("Please enter Login Id for the site");
         //Enter password
-        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("@Datamatics1");
+        driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Password");
         //performing operation
         driver.findElement(By.xpath("//input[@id='button']")).click();
         Thread.sleep(1500);
